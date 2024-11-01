@@ -1,7 +1,7 @@
 # Library
 This poject is a C++ Library Management System that uses object-oriented programming to manage a collection of diferents genders of books, like fiction and science, also it manage the users that use the library. This system allows the user to found the information of a book and it register if the users take to their homes the book or not. This project demonstrates the uses of object-oriented programming.
 # Why?
-I mande a Library Management System because it will make easier to go to a Library, search for a book in the system and if any user takes the book to his home it will appear in the system. With this system the time taken for the administration of the books will be reduced significally.
+I made a Library Management System because it will make easier to go to a Library, search for a book in the system and if any user takes the book to his home it will appear in the system. With this system the time taken for the administration of the books will be reduced significally.
 # Classes
 ### Library
 Is the center classe, where the different genders of book are, it is also where is the users info
