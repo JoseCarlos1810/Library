@@ -8,11 +8,11 @@ To make possible this library management system I will use classes, objects, arr
 ### Library
 Is the center classe, where the different genders of book are, it is also where is the users info
 ### Books
-Represents the common properties of the different genders
+Represents the common properties of the different books
 ### Magazines
-Represents the fiction gender
+Represents the common properties of the different magazines 
 ### Items
-Represents the science gender
+Represents all the different types of items in the library, such as the books and magazines
 ### Users
 Represents the users of the library, it also define if the user takes or not the book to his house
 
