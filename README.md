@@ -16,6 +16,8 @@ Represents all the different types of items in the library, such as the books an
 ### Users
 Represents the users of the library, it also define if the user takes or not the book to his house
 
-![Diagrama](https://github.com/user-attachments/assets/2c054c16-4ebe-4ac5-9374-d45bee9a3468)
+![Diagrama drawio](https://github.com/user-attachments/assets/b2a3cec1-4a21-4778-8898-841c3c131a97)
+
+
 
 
