@@ -18,6 +18,9 @@ Represents the users of the library, it also define if the user takes or not the
 
 ![Diagrama drawio](https://github.com/user-attachments/assets/b2a3cec1-4a21-4778-8898-841c3c131a97)
 
+# Instructions
+To use this library management system you will need to download all the .h and .cpp files, after that you will put in console "g++ main.cpp" to create a .exe file, you need to be sure that all the files are in the same folder, after that you will be able to use this system
 
+If you don´t have c++ in your computer, here it is a tutorial to download it: https://www.youtube.com/watch?v=fh9cGD_fLrA
 
 
