@@ -1,20 +1,26 @@
 #include "magazine.h"
 #include <iostream>
+#include <string>
 using namespace std;
 
-Magazine::Magazine(string _title,string _hallway, string _type,string _volume):Item(_title,_hallway){
+//default constructur with inheritance
+Magazine::Magazine():Item(){
+    
+}
+//here the methods begin
+void Magazine::setType(string _type){
+    //setter
     type=_type;
-    volume=volume;
 }
 
-void Magazine::setType(string){
-    
-}
-
-void Magazine::setVolume(int){
-    
+void Magazine::setVolume(int _volume){
+    //setter
+    volume=_volume;
 }
 
 string Magazine::getMagazineData(){
-    return title,hallway,type,volume;
+    //getter
+    string mensaje="The title of the magazine is: "+title+", it is in the hallway: "+hallway+", the volume of the magazine is:"
+    +to_string(volume)+", the type of the magazine is:"+type+", the book is available: "+available2;
+    return mensaje;
 }
