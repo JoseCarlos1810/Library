@@ -10,7 +10,7 @@ class Book:public Item{
         string author;
         string gender;
     public:
-        Book(string,string,string,string);
+        Book();
         void setAuthor(string);
         void setGender(string);
         string getBookData();
