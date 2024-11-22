@@ -2,25 +2,17 @@
 #include <iostream>
 using namespace std;
 
-//default constructur with inheritance
-Book::Book():Item(){
-    
-}
-//here the methods begin
-void Book::setAuthor(string _author){
-    //setter
+Book::Book(string _title,string _hallway, string _author,string _gender):Item(_title,_hallway){
     author=_author;
-}
-
-void Book::setGender(string _gender){
-    //setter
     gender=_gender;
 }
 
-string Book::getBookData(){
-    //getter
-    string mensaje="The title of the book is: "+title+", it is in the hallway: "+hallway+", the author of the book is:"
-    +author+", the gender of the book is:"+gender+", the book is available: "+available2;
-    return mensaje;
+void Book::setAuthor(string){
+    
 }
-
+void Book::setGender(string){
+    
+}
+string Book::getBookData(){
+    return title,hallway,author,gender;
+}
