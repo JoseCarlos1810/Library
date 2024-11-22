@@ -1,23 +1,22 @@
 #ifndef LIBRARY_H
 #define LIBRARY_H
 
-#include "user.h"
-#include "book.h"
-#include "magazine.h"
+#include "user.cpp"
+#include "Book.cpp"
+#include "magazine.cpp"
 #include <iostream>
 using namespace std;
 
 
 class Library{
     public:
-        bool available;
-        Book book;
-        Magazine magazine;
-        User user;
+        Book book1;
+        Magazine magazine1;
+        User user1;
     public:
-        Library(bool);
-        void setAvailable(bool);
-        bool getAvailable();
+        Library();
+        string getInfo(string);
+        
 };
 
 
