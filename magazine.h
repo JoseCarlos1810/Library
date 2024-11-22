@@ -7,9 +7,9 @@ using namespace std;
 class Magazine:public Item{
     private:
         string type;
-        string volume;
+        int volume;
     public:
-        Magazine(string,string,string,string);
+        Magazine();
         void setType(string);
         void setVolume(int);
         string getMagazineData();
