@@ -10,11 +10,11 @@ class User{
         bool borrow;
         bool returns;
     public:
-        User();
+        User(string,bool,bool);
         void setUserId(string);
         void setBorrow(bool);
         void setReturns(bool);
-        string getUserInfo();
+        string getUserId();
 };
 
 

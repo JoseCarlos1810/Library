@@ -6,17 +6,13 @@ using namespace std;
 
 class Item{
     protected:
-        bool available;
         string title;
         string hallway;
-        string available2;
     public:
-        Item();
+        Item(string,string);
         void setTitle(string);
         void setHallway(string);
         string getItemData();
-        void setAvailable(bool);
-        string getAvailable();
 };
 
 
