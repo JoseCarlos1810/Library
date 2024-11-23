@@ -3,7 +3,7 @@
 
 #include <iostream>
 using namespace std;
-
+//class of the users of the library
 class User{
     public:
         string userId;
@@ -11,10 +11,11 @@ class User{
         bool returns;
     public:
         User();
+        User(string, bool, bool);
         void setUserId(string);
         void setBorrow(bool);
         void setReturns(bool);
-        string getUserInfo();
+        string getUserData();
 };
 
 
