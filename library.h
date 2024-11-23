@@ -1,21 +1,28 @@
 #ifndef LIBRARY_H
 #define LIBRARY_H
 
+#include "sstream"
 #include "user.cpp"
-#include "Book.cpp"
+#include "book.cpp"
 #include "magazine.cpp"
 #include <iostream>
 using namespace std;
 
-
+//The class library is the central class, it has conpositions
 class Library{
-    public:
-        Book book1;
-        Magazine magazine1;
-        User user1;
+    private:
+        //this are the arrays of the items and users and their sizes
+        Book books[4];
+        Magazine magazines[4];
+        User users[4];
     public:
         Library();
-        string getInfo(string);
+        string getBooksInfo(int);
+        string getMagazinesInfo(int);
+        string getUsersInfo(int);
+        void addBook(Book, int);
+        void addMagazine(Magazine, int);
+        void addUser(User, int);
         
 };
 
