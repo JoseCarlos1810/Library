@@ -18,7 +18,7 @@ Represents all the different types of items in the library, such as the books an
 ### Users
 Represents the users of the library, it also define if the user takes or not the book to his house
 
-![Diagrama drawio](https://github.com/user-attachments/assets/b2a3cec1-4a21-4778-8898-841c3c131a97)
+![Diagrama (1)](https://github.com/user-attachments/assets/76e7711a-7df9-4e1e-b359-59c12a84e65e)
 
 # Instructions
 To use this library management system you will need to download all the .h and .cpp files, after that you will put in console "g++ main.cpp" to create a .exe file, you need to be sure that all the files are in the same folder, after that you will be able to use this system
